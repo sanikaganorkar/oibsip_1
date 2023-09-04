@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family:serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.navbar .title{
+    color: aliceblue;
+    font-size: 45px;
+}
+span{
+  color: darkkhaki;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 27px;
+    margin-left: 25px;
+    transition: .3s ease;
+}
+.menu li a:hover{
+    color: darkkhaki;
+    padding: 8px 20px;
+    border: 3px solid red;
+    box-shadow: 5px 5px 7px 0px rgb(189, 230, 233);
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+.heading{
+    font-size: 70px;
+    color: aliceblue;
+   font-weight: 700;
+}
+.home p{
+    color: darkgray;
+    font-size: 27px;
+    padding-top: 10px;
+}
+.home button {
+    height: 40px;
+    color:brown;
+    font-size: 24px;
+    background:rgb(213, 213, 196);
+    padding: 5px 30px;
+    margin-top: 20px;
+    border:3px solid white;
+    box-shadow: 5px 5px 7px 0px #74cad7
+    /* transition: 0.4s ease;
+    cursor: pointer; */
+}
+
+#buy{
+    margin-right: 30px;
+}
+#us{
+    margin-left: 30px;
+}
+.home button:hover{
+    background: none;
+    border:3px solid rgb(140, 197, 175);
+}
+.t-left{
+    position: absolute;
+    color: aliceblue;
+    left: 5%;
+    bottom: 15%;
+    max-width: 400px;
+    padding-left: 50px;
+    border-left: 5px solid burlywood;
+}
+.t-left p{
+    color: rgb(213, 194, 194);
+    margin-top: 10px;
+
+}
